@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Библиотека для определения загруженности парковки">
+    <Position X="11.106" Y="4.097" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Библиотека для определения движения на парковке">
+    <Position X="6.76" Y="4.125" Height="0.729" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Основное приложение, использующее библиотеки">
+    <Position X="9.267" Y="0.564" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Библиотека для распознавания номерного знака">
+    <Position X="1.396" Y="4.115" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="ParkingControlCenter.MainWindow">
+    <Position X="4.5" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABQAAAAAABAAAEgAAAAAAAAAgAAAAAAAcAAQA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CarsMovementLibrary.CarsMovement">
+    <Position X="5.25" Y="5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CarsMovementLibrary.Roads">
+    <Position X="5.25" Y="7" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CarsMovementLibrary.ParkingSpace">
+    <Position X="7.75" Y="5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CarsRecognitionLibrary.ParkingSpace">
+    <Position X="10.75" Y="6.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CarsRecognitionLibrary.CarRecognition">
+    <Position X="10.75" Y="5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CarsMovementLibrary.Models.StatesInfo">
+    <Position X="7.75" Y="7" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CarsRecognitionLibrary.Models.Place">
+    <Position X="10.75" Y="8.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CarsClassification_ANPR.CarClassification">
+    <Position X="0.5" Y="5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CarsClassification_ANPR.NumberPlateRecognition">
+    <Position X="0.5" Y="7.25" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CarsClassification_ANPR.LabelMap">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.5" />
+    <PackageReference Include="Tesseract" Version="5.2.0" />
+    <PackageReference Include="YoloV8" Version="4.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CarsClassification&amp;ANPR\CarsClassification&amp;ANPR\CarsClassification&amp;ANPR.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CarsMovementLibrary">
+      <HintPath>..\..\CarsMovementLibrary\CarsMovementLibrary\bin\Debug\net8.0-windows\CarsMovementLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CarsRecognitionLibrary">
+      <HintPath>..\..\CarsRecognitionLibrary\CarsRecognitionLibrary\bin\Debug\net8.0-windows\CarsRecognitionLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MediaFileProcessor">
+      <HintPath>..\..\MediaFileProcessor\MediaFileProcessor\MediaFileProcessor\bin\Debug\netstandard2.1\MediaFileProcessor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="best.onnx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="carresnet152.onnx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="mycar.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="plateyolov8.onnx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="testdata\eng.traineddata">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
