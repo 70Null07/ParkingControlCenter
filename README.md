@@ -4,7 +4,7 @@
 
 Для работы необходимо скачать обученную модель https://drive.google.com/file/d/1s_vjRpzZ7dkRSt20gj6qFM-9CdYDipIb/view?usp=drive_link и поместить ее в папку ParkingControlCenter, также необходимо настроить связи на сборки библиотек CarsClassification&ANPR, CarsRecognitionLibrary, CarsMovementLibrary.
 Для программы необходим ffmpeg, который должен быть расположен по пути C:/ffmpeg/bin, а также установленный VLC Media Player x32 или x64. Runtime .NET Core 8. Также необходимо настраивать место сохранения файлов визуализации загруженности парковки.
-
+Также необходимо распаковать архив с базой данных CarSiteDB и испортировать её (восстановить).
 
 
 Примеры обнаружения автомобилей на видео:
