@@ -33,3 +33,8 @@
 Точность распознавания:
 
 ![image](https://github.com/70Null07/ParkingControlCenter/assets/76547066/91714cd0-6142-4e6a-bbf1-dd235e56a882)
+
+
+Физическая модель базы данных:
+
+![image](https://github.com/70Null07/Parking-Control-Web-Application/assets/76547066/a72ddbfb-225a-41fd-b29c-81d1fa98e6e1)
