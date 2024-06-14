@@ -8,6 +8,7 @@
 
 
 Примеры обнаружения автомобилей на видео:
+
 ![image](https://github.com/70Null07/ParkingControlCenter/assets/76547066/03e143b0-8c80-42a5-919d-e81af9280459)
 ![image](https://github.com/70Null07/ParkingControlCenter/assets/76547066/2c291ae9-98c4-43ff-b224-fa42b412e9b3)
 ![image](https://github.com/70Null07/ParkingControlCenter/assets/76547066/4d7c72e1-7178-4d5c-b0ca-fe0040514677)
@@ -15,6 +16,7 @@
 
 
 Пример классификации автомобиля на въезде:
+
 ![image](https://github.com/70Null07/ParkingControlCenter/assets/76547066/be55aafe-fb59-43a0-9b73-bd91e7452e0e)
 ![image](https://github.com/70Null07/ParkingControlCenter/assets/76547066/63dd8f36-d142-40cb-a5dc-61a41f2967e7)
 ![image](https://github.com/70Null07/ParkingControlCenter/assets/76547066/1a207def-82dc-4993-a12a-1d30dba01c10)
@@ -22,10 +24,12 @@
 
 
 Пример определения движения:
+
 ![image](https://github.com/70Null07/ParkingControlCenter/assets/76547066/78961419-ff99-4c62-8ccd-4cf69dce46ab)
 ![image](https://github.com/70Null07/ParkingControlCenter/assets/76547066/cc1654b9-f8f4-4c6f-a73e-4f701bdb153a)
 
 
 
 Точность распознавания:
+
 ![image](https://github.com/70Null07/ParkingControlCenter/assets/76547066/91714cd0-6142-4e6a-bbf1-dd235e56a882)
